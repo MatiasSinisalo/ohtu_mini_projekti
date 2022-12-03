@@ -36,3 +36,4 @@ Anna koneen asentaa riippuvuudet, tämän jälkeen siirry hakemistoon "src", sov
 >**flask run**
 
 Sovellus käynnistyy osoitteessa http://127.0.0.1:5000
+
