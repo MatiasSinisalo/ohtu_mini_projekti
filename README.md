@@ -23,16 +23,19 @@ Github-actions on hyväksynyt koodin.
 
 Kloonaa repositorio koneellesi käskyllä
 
->**git clone https://github.com/MatiasSinisalo/ohtu_mini_projekti**
+```console
+git clone https://github.com/MatiasSinisalo/ohtu_mini_projekti
+```
 
 Tämän jälkeen siirry kloonin juurihakemistoon (kansio, josssa on tiedosto "app.py") ja anna käsky 
-
->**poetry install**
+```console
+poetry install
+```
 
 Anna koneen asentaa riippuvuudet, tämän jälkeen siirry hakemistoon "src", sovellus käynnistyy käskyillä
-
->**poetry shell**
->
->**flask run**
+```console
+poetry shell
+flask run
+```
 
 Sovellus käynnistyy osoitteessa http://127.0.0.1:5000
